@@ -1,17 +1,11 @@
-#1st program
-print('task1')
-print(9 ** 0.5 * 5)
-#2st program
-print('task2')
-print(9.99>9.98 and 1000!=1000.1)
-#3st program
-print('task3')
-print(2 * 2 + 2)
-print(2 * (2+2))
-print((2 * 2 + 2) == (2 * (2+2)))
-#4st program
-print('task4')
-print((int((float('123.456')) * 10)) % 10)
+#1s_program
+count_dz = 12
+clk = 1.5
+name_course = 'Python'
+one_clk = (clk / count_dz)
+print(one_clk)
+
+print('Курс: ',(name_course + ','),' всего задач: ',(str(count_dz) + ','),' затрачено часов: ',(str(clk) + ','),' среднее время выполнения ',one_clk,' часов.')
 
 
 
