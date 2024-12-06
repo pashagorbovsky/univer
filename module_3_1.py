@@ -5,10 +5,7 @@ def count_calls():
 def string_info(string):
     count_calls()
     string = str(string)
-    n = len(string)
-    str_1 = string.upper()
-    str_2 = string.lower()
-    m = (n, str_1, str_2)
+    m = (len(string), string.upper(), string.lower())
     return m
 def is_contains(string,is_contains):
     count_calls()
