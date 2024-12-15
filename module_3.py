@@ -44,4 +44,5 @@ def calculate_structure_sum(args):
 
 result = calculate_structure_sum(data_structure)
 
-print(result)
+print('Сумма всех чисел в структуре: ', result[0])
+print('Сумма всех символов строк в структуре: ', result[1])
